@@ -1,0 +1,10 @@
+### Obtener las 10 monedas que más pérdidas de valor tuvieron en las últimas 24 horas.
+GET http://localhost:3000/losers
+
+
+### Obtener la información de la cuenta de un usuario de Binance.
+GET http://localhost:3000/account
+
+
+### Poner una orden tipo “Limit” con la moneda que más perdió en las últimas 24hrs.
+GET http://localhost:3000/order/limit
